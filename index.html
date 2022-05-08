@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Alura Codificador</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+<body>
+  <header class="hero">
+      <div class="logo-container container" >
+        <img src="/img/Logo.png" alt="Alura-Encriptador" class="logo" >
+      </div>
+  </header>
+   
+  <main class="main container">
+
+    <section class="container">
+      <div class="mensaje-container">
+        <textarea class="text-area1" name="input-texto" id="mensaje" cols="26" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        <h2> <img src="/img/icons8-general-mandatory-action-48.png" alt="" class="icon-mandatory"> Solo letras minuscula y sin acentos</h2>
+
+        <div class="button-container">
+          <button class="btn" role="link" onclick="javascript:cerrar();" type="button" id="btn-codificar">  Codificar</button>
+          <button class="btn" role="link" onclick="javascript:cerrar();" on type="button" id="btn-descodificar">Descodificar</button>
+          
+          
+        </div>
+      </div>
+      
+    </section>
+  
+    <section class="container">
+      <div class="result-container container">
+        <img src="/img/Muñeco.png" alt="" id="ilustracion">
+        <textarea class="text-area2" name="" id="msj-codificado" cols="30" rows="10" placeholder="Ningún mensaje fue encontrado" readonly></textarea>
+        <input class="btncopiar" type="button" value="Copiar" id="btn-copiar">
+      </div>
+      
+    </section>
+  </main>
+  
+  <script languague="javascript" src="/js/setting.js"></script>
+  <footer >
+    <p class="copyright">&copy Copyright By Loriel Ramirez - 2022</p>
+  </footer>
+</body>
+</html>
